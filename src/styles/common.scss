@@ -1,0 +1,88 @@
+// ============================================================
+// Design tokens — LiteMD (VS Code / Linear inspired)
+// ============================================================
+
+// Typography
+$font-sans:
+  -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC',
+  'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+$font-mono:
+  'JetBrains Mono', 'Fira Code', 'Cascadia Code', 'Consolas', 'Monaco',
+  'Courier New', monospace;
+
+// ── Palette ──────────────────────────────────────────────────
+// Header / chrome
+$color-bg-header: #1a1b2e;
+$color-bg-header-hover: #252639;
+
+// Content areas
+$color-bg-editor: #fafbfc;
+$color-bg-preview: #ffffff;
+$color-bg-tabbar: #f4f5f8;
+$color-bg-sidebar: #f8f9fb;
+
+// Accent
+$color-primary: #6366f1;
+$color-primary-light: #818cf8;
+$color-primary-dark: #4f46e5;
+$color-primary-alpha: rgba(99, 102, 241, 0.12);
+
+// Text
+$color-text-primary: #0f172a;
+$color-text-secondary: #64748b;
+$color-text-placeholder: #94a3b8;
+$color-text-inverse: #f8fafc;
+$color-text-muted: #c0c7d4;
+
+// Borders
+$color-border: #e2e8f0;
+$color-border-light: #f1f5f9;
+$color-border-dark: #cbd5e1;
+
+// Status colors
+$color-danger: #ef4444;
+$color-success: #10b981;
+$color-warning: #f59e0b;
+$color-info: #3b82f6;
+
+// ── Spacing ───────────────────────────────────────────────────
+$spacing-xs: 4px;
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 24px;
+$spacing-xl: 32px;
+$spacing-2xl: 48px;
+
+// ── Shape ─────────────────────────────────────────────────────
+$radius-sm: 4px;
+$radius-md: 6px;
+$radius-lg: 10px;
+$radius-xl: 16px;
+$radius-full: 9999px;
+
+// ── Elevation ─────────────────────────────────────────────────
+$shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.05);
+$shadow-sm:
+  0 1px 3px rgba(0, 0, 0, 0.1),
+  0 1px 2px rgba(0, 0, 0, 0.06);
+$shadow-md:
+  0 4px 6px rgba(0, 0, 0, 0.07),
+  0 2px 4px rgba(0, 0, 0, 0.06);
+$shadow-lg:
+  0 10px 15px rgba(0, 0, 0, 0.1),
+  0 4px 6px rgba(0, 0, 0, 0.05);
+$shadow-inset: inset 0 2px 4px rgba(0, 0, 0, 0.06);
+
+// ── Motion ────────────────────────────────────────────────────
+$transition-fast: 0.12s ease;
+$transition-base: 0.2s ease;
+$transition-slow: 0.3s ease;
+
+// ── Layout constants ──────────────────────────────────────────
+$header-height: 48px;
+$tabbar-height: 42px;
+
+// ── Backward-compat aliases (kept for any legacy usage) ───────
+$primary-color: $color-primary;
+$border-color: $color-border;
+$bg-color: $color-bg-preview;

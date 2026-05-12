@@ -420,6 +420,7 @@ watch(renderedContent, () => {
     letter-spacing: -0.015em;
     padding-bottom: 0.25em;
     border-bottom: 1px solid $color-border;
+    margin-top: 2em;
   }
 
   :deep(h3) { font-size: 1.2em; }
